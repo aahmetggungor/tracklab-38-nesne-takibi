@@ -1,0 +1,43 @@
+{
+  "tracker": "OpenCV ViTTrack 2023sep",
+  "opencv": "5.0.0",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "python": "3.12.14",
+  "manifest_utc": "2026-09-27T08:39:16.530372+00:00",
+  "sequences": [
+    "david",
+    "dudek",
+    "faceocc2"
+  ],
+  "conditions": [
+    "Orijinal",
+    "Karanlık",
+    "Bulanık"
+  ],
+  "methods": [
+    "İşlemsiz",
+    "CLAHE",
+    "Gamma 0.7"
+  ],
+  "comparison": "ground truth initialization, no automatic reinitialization; first frame excluded",
+  "conditions_detail": {
+    "Karanlık": "pixel intensity x 0.40",
+    "Bulanık": "GaussianBlur kernel 9x9, sigma 2.0"
+  },
+  "sha256": {
+    "assets/vittrack.onnx": "2990f0b7cd44d92afa48cd97db6de7be113fc1d9594fddb74e2725c10478e91d",
+    "tracking.py": "7df213c9f52f62e8517895a3efc89f84f5be40e79041b3f72775473e7fefeb27",
+    "run_experiments.py": "93b24e2bc2227f31a3a27f77527f3cf14694011a42c3f2ed67cbafb4a26cb2bf",
+    "data/david.webm": "4bbe69b7d097379af4d7ad128f02692820dc57a6d8275ea2b9e7eef4399a3e61",
+    "data/david_gt.txt": "8e46f079b39f7877f9650bcf2fc42879b03f22d77ef832ca1d3e1ed258269588",
+    "data/david.yml": "b66f1b8ec8fd2dedf1ebde197323da0d23249eab95778aaa42fad7d8ac78c713",
+    "data/dudek.webm": "679c95a22c71e259971ccaaabf805fdba55c70e224b28eafa7536b7989c722e1",
+    "data/dudek_gt.txt": "6645d041ab014a2b3b7f34ca271c1ac42d3d72a9546443c7cc9c542f772f56c4",
+    "data/dudek.yml": "08e6bfe53a749e2660798627448d166c30553e9d8e4620386a51bc5f760bc7a9",
+    "data/faceocc2.webm": "5ffedeca4fb3acfd65e6f6aa71f016f748628727be1e24914fde2198b42089c5",
+    "data/faceocc2_gt.txt": "7d7b2dc7251e20fbb2fedfc36356ffbc7146ce59f49c21dfe251b8714b87ab88",
+    "data/faceocc2.yml": "dbdba70a8b3188609292b5291d8409378baaff50df9340c340aa44adee88b42c"
+  },
+  "cache_key": "5aa3f2863254aedffb13"
+}
