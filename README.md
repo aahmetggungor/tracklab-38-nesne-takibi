@@ -2,6 +2,9 @@
 
 ## Çevrimiçi yayın
 
+**Canlı demo:** https://tracklab-38-nesne-takibi.streamlit.app/  
+**Kaynak kod:** https://github.com/aahmetggungor/tracklab-38-nesne-takibi
+
 Streamlit Community Cloud için giriş dosyası `app.py`, Python sürümü 3.12'dir. Demo model/video dosyaları ve 27 etiketli deneyin doğrulanmış sonuçları depoda bulunur. Deneyin kaydedildiği paket sürümleri manifestte tutulur; sunucu sürümü farklı olsa da model, veri ve deney kodu SHA-256 değerleri ile sonuç tabloları kontrol edilir. Kullanıcının yüklediği video sunucuda işlenir; gerçek kişisel veya gizli video yüklemeyin.
 
 SAYZEK PDF 38 için hazırlanmış ölçülebilir nesne takibi demosu. Aynı derin öğrenme tabanlı ViTTrack modeli, üç etiketli videoda üç görüntü ön işleme yöntemi ve üç görüntü koşulunda denenir. Ön işleme ile başarı/hız değişimi ve kritik kare aralıkları arayüzde görülebilir. Kısa bulgular [KISA_RAPOR.md](KISA_RAPOR.md) dosyasındadır.

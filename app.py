@@ -197,7 +197,9 @@ st.divider()
 st.subheader("Kendi videonla dene")
 st.caption("Kısa bir MP4/MOV/AVI yükle, ilk karede tek hedef için bir kutu belirle. "
            "İki yöntem aynı başlangıç kutusundan izler; etiket olmadığı için IoU/AUC hesaplanmaz. "
-           "İşlem bu bilgisayarda yapılır; ilk 20 saniye, en fazla 180 kare ve 30 MB.")
+           + ("Video çevrimiçi sunucuda işlenir; " if not st.context.url.startswith(("http://localhost", "http://127.0.0.1"))
+              else "Video bu bilgisayarda işlenir; ")
+           + "ilk 20 saniye, en fazla 180 kare ve 30 MB.")
 uploaded = st.file_uploader("Kendi videonu yükle", type=["mp4", "mov", "avi"],
                             max_upload_size=30, key="custom_tracking_video")
 if uploaded:
