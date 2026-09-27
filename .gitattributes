@@ -1,0 +1,5 @@
+# Deney parmak izleri bayt düzeyindedir; Windows satır sonu dönüşümünü engelle.
+tracking.py -text
+run_experiments.py -text
+data/*.yml -text
+data/*_gt.txt -text
