@@ -1,5 +1,11 @@
 # TRACKLAB 38
 
+Görüntü ön işlemenin nesne takibine etkisini aynı ViTTrack modeliyle ölçen deney ve karşılaştırma demosu. Üç etiketli videoda, üç görüntü koşulu ve üç ön işleme yöntemiyle **27 deney** içerir.
+
+**[Canlı demoyu aç](https://tracklab-38-nesne-takibi.streamlit.app/)** · **[Kısa bulgular](KISA_RAPOR.md)** · **[Deney tablosu](results/summary.csv)** · **[Karşılaştırma videosu](results/demo_david_clahe.mp4)**
+
+Etiketli videoda IoU, AUC, merkez doğruluğu ve hız ölçülür; kullanıcı videosunda etiket olmadığından doğruluk puanı gösterilmez.
+
 ## Çevrimiçi yayın
 
 **Canlı demo:** https://tracklab-38-nesne-takibi.streamlit.app/  
